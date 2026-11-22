@@ -1,4 +1,3 @@
-from ScubaTank import Scubatank
 class ScubaTank:
     def __init__(self, label, bar):
         self.label = label
@@ -29,8 +28,3 @@ class ScubaTank:
         
     def __str__(self):
         return f"Tank {self.label}: {self.__bar} bar"
-    
-t.release(0)
-t.release(300)
-t.release(50)
-print(t)
