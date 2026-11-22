@@ -30,14 +30,6 @@ class ScubaTank:
     def __str__(self):
         return f"Tank {self.label}: {self.__bar} bar"
     
-t = ScubaTank("A", 80)
-print(t)
-t.fill(40)
-print(t.get_bar())
-t.set_bar(250)
-print(t)
-t.set_bar(400)
-print(t.get_bar())
 t.release(0)
 t.release(300)
 t.release(50)
