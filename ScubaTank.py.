@@ -1,3 +1,4 @@
+from ScubaTank import Scubatank
 class ScubaTank:
     def __init__(self, label, bar):
         self.label = label
