@@ -1,4 +1,3 @@
-from ScubaTank import Scubatank
 class ScubaTank:
     def __init__(self, label, bar):
         self.label = label
@@ -36,13 +35,3 @@ def transfer_air(source, target, amount):
     else:
         source.release(amount)
         target.fill(amount)
-        
-        
-
-src = ScubaTank("A", 150)
-dst = ScubaTank("B", 20)
-transfer_air(src, dst, 50)
-print(src)
-print(dst)
-print(src.get_bar())
-print(dst.get_bar())
